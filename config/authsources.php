@@ -31,7 +31,7 @@ $config = [
 
         // The entity ID of this SP.
         // Can be NULL/unset, in which case an entity ID is generated based on the metadata URL.
-        'entityID' => 'https://aoprototest-php2.azurewebsites.net/www/',
+        'entityID' => 'https://aoprototest-php3.azurewebsites.net/www/saml2/idp/metadata.php/default-sp',
 #        'entityID' => 'https://aoprototest-php.azurewebsites.net/simplesaml/',
 
         // The entity ID of the IdP this SP should contact.
