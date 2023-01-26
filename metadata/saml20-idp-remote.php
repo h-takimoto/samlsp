@@ -14,13 +14,13 @@ $metadata['https://aoprototest-php2.azurewebsites.net/www/saml2/idp/metadata.php
     'SingleSignOnService' => [
         [
             'Binding' => 'urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect',
-            'Location' => 'https://aoprototest-php2.azurewebsites.net:443/www/module.php/saml/idp/singleSignOnService',
+            'Location' => 'https://aoprototest-php2.azurewebsites.net/www/module.php/saml/idp/singleSignOnService',
         ],
     ],
     'SingleLogoutService' => [
         [
             'Binding' => 'urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect',
-            'Location' => 'https://aoprototest-php2.azurewebsites.net:443/www/module.php/saml/idp/singleLogout',
+            'Location' => 'https://aoprototest-php2.azurewebsites.net/www/module.php/saml/idp/singleLogout',
         ],
     ],
     'NameIDFormat' => [
